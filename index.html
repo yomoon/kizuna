@@ -2,16 +2,17 @@
 <html lang="en">
 <head>
 
-     <title>EC Kizuna</title>
+     <title>EC Kizuna - The best cross board EC business and marketing solution for Japanese market</title>
 <!-- 
 
 EC Kizuna Offcial Website
-Last updated - 2020/10/24
+Last updated - 2020/11/07
+Created - 2020/10/24
 
 -->
      <meta charset="UTF-8">
      <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-     <meta name="description" content="Our service can help oversea companies to overcome challenges, to have a smooth and fast start in Japan EC market.">
+     <meta name="description" content="We provide one stop solution for cross board EC business and most advanced marketing solution in Japanese market.">
      <meta name="keywords" content="EC Kizuna">
      <meta name="author" content="">
      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -19,7 +20,7 @@ Last updated - 2020/10/24
      <meta property="og:url" content=""/>
      <meta property="og:locale" content="en_us" />
      <meta property="og:title" content="EC Kizuna"/>
-     <meta property="og:description" content="Our service can help oversea companies to overcome challenges, to have a smooth and fast start in Japan EC market."/>
+     <meta property="og:description" content="We provide one stop solution for cross board EC business and most advanced marketing solution in Japanese market."/>
      <meta property="og:type" content="website"/>
      <meta property="og:image" content="https://raw.githubusercontent.com/yomoon/kizuna/gh-pages/images/kizuna_og_img.jpg"/>
      
@@ -32,10 +33,29 @@ Last updated - 2020/10/24
 
      <!-- MAIN CSS -->
      <link rel="stylesheet" href="css/kizuna-style.css">
+     
+     <!-- LANGUAGE -->
+     <script type=“text/javascript” src=“//code.jquery.com/jquery-latest.pack.js”></script>
+	  <script type=“text/javascript”>
+      $(function(){
+          var lang = window.navigator.userLanguage || window.navigator.language ;
+          var relang=lang.toLowerCase();
+          switch (relang){
+              case “ja-jp”:
+                  $(“#tbody”).load(“index.html”);
+              break;
+              case “zh-tw”:
+                  $(“#tbody”).load(“index.html”);
+          break;
+          default:
+          $(“#tbody”).load(“index.html”);
+          }
+      });
+      </script>
 
 </head>
 <body id="top" data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
-
+<div id=“tbody”></div>
      <!-- PRE LOADER -->
      <section class="preloader">
           <div class="spinner">
@@ -68,8 +88,8 @@ Last updated - 2020/10/24
                          <li><a href="#ourservice" class="smoothScroll">Our Service</a></li>
                          <li><a href="#about" class="smoothScroll">About Us</a></li>
                          <li><a href="#value" class="smoothScroll">Service Value</a></li>
-                         <li><a href="#instance" class="smoothScroll">Instance</a></li>
-                         <li><a href="#testimonial" class="smoothScroll">Testimonial</a></li>
+                        <!-- <li><a href="#instance" class="smoothScroll">Instance</a></li>-->
+                         <li><a href="#team" class="smoothScroll">Team</a></li>
                          <li><a href="#contact" class="smoothScroll">Contact</a></li>
                     </ul>
 
@@ -105,7 +125,7 @@ Last updated - 2020/10/24
                                         <div class="col-md-6 col-sm-12">
                                              <h1>Start the Journey to Operating Your New Stores</h1>
                                              <h3><strong>Our service can help oversea companies to overcome challenges, to have a smooth and fast start in Japan EC market. </strong></h3>
-                                             <a href="#instance" class="section-btn btn btn-default smoothScroll">Discover more</a>
+                                             <a href="#value" class="section-btn btn btn-default smoothScroll">Discover more</a>
                                         </div>
                                    </div>
                               </div>
@@ -144,7 +164,7 @@ Last updated - 2020/10/24
                          <div class="feature-thumb">
                               <span>02</span>
                               <h3>Ensure the Sales Platform</h3>
-                              <p>We provide sales platforms according to customer requirements. We can help to apply an original web shop or client can use our owned platform to sell their product.)</p>
+                              <p>We provide sales platforms according to customer requirements. We can help to apply an original web shop or client can use our owned platform to sell their product.)<p><br><p></p>
                          </div>
                     </div>
 
@@ -152,7 +172,7 @@ Last updated - 2020/10/24
                          <div class="feature-thumb">
                               <span>03</span>
                               <h3>Product & Brand Localization</h3>
-                              <p>We help to translate and localize product and brand page. Base on local trend to choose attractive design and key words.</p>
+                              <p>We help to translate and localize product and brand page. Base on local trend to choose attractive design and key words.<p><br><p></p>
                          </div>
                     </div>
 
@@ -201,8 +221,7 @@ Last updated - 2020/10/24
                                    <span><i class="fa fa-users"></i></span>
                                    <figcaption>
                                         <h3>Who We Are</h3>
-                                        <p>We are a company that aimed at to support those oversea companies who want to enter Japan’s EC market. We provide a full range of technical and operational supports. 
-</p>
+                                        <p>We are a company that aimed at to support those oversea companies who want to enter Japan’s EC market. We provide a full range of technical and operational supports. </p>
                                    </figcaption>
                               </figure>
 
@@ -218,7 +237,7 @@ Last updated - 2020/10/24
                                    <span><i class="fa fa-bar-chart-o"></i></span>
                                    <figcaption>
                                         <h3>Powerful Data Analysis</h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint ipsa voluptatibus.</p>
+                                        <p>We use AI Data management tools to help monitor and management the website and marketing event. </p>
                                    </figcaption>
                               </figure>
                          </div>
@@ -301,7 +320,7 @@ Last updated - 2020/10/24
 
 
      <!-- INSTANCE -->
-     <section id="instance">
+     <!-- <section id="instance">
           <div class="container">
                <div class="row">
 
@@ -322,7 +341,7 @@ Last updated - 2020/10/24
 
                                              <div class="courses-detail">
                                                   <h3><a href="#">BUWU</a></h3>
-                                                  <p>創作布花與包件的台灣織品品牌</p>
+                                                  <p>...</p>
                                              </div>
 
                                              <div class="courses-info">
@@ -348,7 +367,7 @@ Last updated - 2020/10/24
 
                                              <div class="courses-detail">
                                                   <h3><a href="#">inBlooom</a></h3>
-                                                  <p>台式文創設計品牌</p>
+                                                  <p>...</p>
                                              </div>
 
                                              <div class="courses-info">
@@ -374,7 +393,7 @@ Last updated - 2020/10/24
 
                                              <div class="courses-detail">
                                                   <h3><a href="#">RhinoShield</a></h3>
-                                                  <p>台灣原創超防摔保護殼系列</p>
+                                                  <p>...</p>
                                              </div>
 
                                              <div class="courses-info">
@@ -400,7 +419,7 @@ Last updated - 2020/10/24
 
                                              <div class="courses-detail">
                                                   <h3><a href="#">BUWU</a></h3>
-                                                  <p>創作布花與包件的台灣織品品牌</p>
+                                                  <p>...</p>
                                              </div>
 
                                              <div class="courses-info">
@@ -426,7 +445,7 @@ Last updated - 2020/10/24
 
                                              <div class="courses-detail">
                                                   <h3><a href="#">inBlooom</a></h3>
-                                                  <p>台式文創設計品牌</p>
+                                                  <p>...</p>
                                              </div>
 
                                              <div class="courses-info">
@@ -452,7 +471,7 @@ Last updated - 2020/10/24
 
                                              <div class="courses-detail">
                                                   <h3><a href="#">RhinoShield</a></h3>
-                                                  <p>台灣原創超防摔保護殼系列</p>
+                                                  <p>...</p>
                                              </div>
 
                                              <div class="courses-info">
@@ -471,17 +490,17 @@ Last updated - 2020/10/24
 
                </div>
           </div>
-     </section>
+     </section>-->
 
 
-     <!-- TESTIMONIAL -->
-     <section id="testimonial">
+     <!-- TEAM -->
+     <section id="team">
           <div class="container">
                <div class="row">
 
                     <div class="col-md-12 col-sm-12">
                          <div class="section-title">
-                              <h2>Customer Reviews <small>from around the world</small></h2>
+                              <h2>Our Team <small>from around the world</small></h2>
                          </div>
 
                          <div class="owl-carousel owl-theme owl-client">
@@ -491,17 +510,12 @@ Last updated - 2020/10/24
                                              <img src="images/tst-image1.jpg" class="img-responsive" alt="">
                                         </div>
                                         <div class="tst-author">
-                                             <h4>Jackson</h4>
-                                             <span>Shopify Developer</span>
+                                             <h4>CHAO JO CHIEN</h4>
+                                             <span>Sales & Technology <br>Management</span>
                                         </div>
-                                        <p>You really do help young creative minds to get quality education and professional job search assistance. I’d recommend it to everyone!</p>
-                                        <div class="tst-rating">
-                                             <i class="fa fa-star"></i>
-                                             <i class="fa fa-star"></i>
-                                             <i class="fa fa-star"></i>
-                                             <i class="fa fa-star"></i>
-                                             <i class="fa fa-star"></i>
-                                        </div>
+                                        <hr>
+                                        <p>Has more than 20 years of experience work in EC Bank, Telco, IT consulting and IT security companies. 10 years of project and product management, consulting service, and more 5 years of EC mobile web and AI product technology research and development.</p>
+                                        
                                    </div>
                               </div>
 
@@ -511,15 +525,12 @@ Last updated - 2020/10/24
                                              <img src="images/tst-image2.jpg" class="img-responsive" alt="">
                                         </div>
                                         <div class="tst-author">
-                                             <h4>Camila</h4>
-                                             <span>Marketing Manager</span>
+                                             <h4>Maggie Liu</h4>
+                                             <span>Business Planning & <br>Operation Management</span>
                                         </div>
-                                        <p>Trying something new is exciting! Thanks for the amazing law course and the great teacher who was able to make it interesting.</p>
-                                        <div class="tst-rating">
-                                             <i class="fa fa-star"></i>
-                                             <i class="fa fa-star"></i>
-                                             <i class="fa fa-star"></i>
-                                        </div>
+                                        <hr>
+                                        <p>Specialized in Market Research and Competitor Analyst. Can provide 1 stop service from drafting to execution of business plans and measuring effects.</p>
+                                        
                                    </div>
                               </div>
 
@@ -529,16 +540,12 @@ Last updated - 2020/10/24
                                              <img src="images/tst-image3.jpg" class="img-responsive" alt="">
                                         </div>
                                         <div class="tst-author">
-                                             <h4>Barbie</h4>
-                                             <span>Art Director</span>
+                                             <h4>Jerry Wu</h4>
+                                             <span>Web Consultant</span>
                                         </div>
-                                        <p>Donec erat libero, blandit vitae arcu eu, lacinia placerat justo. Sed sollicitudin quis felis vitae hendrerit.</p>
-                                        <div class="tst-rating">
-                                             <i class="fa fa-star"></i>
-                                             <i class="fa fa-star"></i>
-                                             <i class="fa fa-star"></i>
-                                             <i class="fa fa-star"></i>
-                                        </div>
+                                        <hr>
+                                        <p>An expert who has extensive and rich experience in software development and digital marketing. Areas of expertise: software engineering, SEO, User-centered design, and software product management. A Certified ScrumMaster (CSM).</p>
+                                        
                                    </div>
                               </div>
 
@@ -548,16 +555,13 @@ Last updated - 2020/10/24
                                              <img src="images/tst-image4.jpg" class="img-responsive" alt="">
                                         </div>
                                         <div class="tst-author">
-                                             <h4>Andrio</h4>
-                                             <span>Web Developer</span>
+                                             <h4>Sara Lin</h4>
+                                             <span>UX / UI Design Consultant</span>
                                         </div>
-                                        <p>Nam eget mi eu ante faucibus viverra nec sed magna. Vivamus viverra sapien ex, elementum varius ex sagittis vel.</p>
-                                        <div class="tst-rating">
-                                             <i class="fa fa-star"></i>
-                                             <i class="fa fa-star"></i>
-                                             <i class="fa fa-star"></i>
-                                             <i class="fa fa-star"></i>
-                                        </div>
+                                        <hr>
+                                        <p>10+ years in design and IT industry field.
+Conducted branding design, animation and IoT products, innovative APP & Web design, and large-scale overseas exhibitions.</p>
+                                        
                                    </div>
                               </div>
 
@@ -628,7 +632,6 @@ Last updated - 2020/10/24
                               <div class="copyright-text"> 
                                    <p>Copyright &copy; 2020 Kizuna</p>
                                    
-                                   <p>Design: Azaburu</p>
                               </div>
                          </div>
                     </div>
@@ -643,7 +646,12 @@ Last updated - 2020/10/24
                                    <p><a href="mailto:youremail.co">hello@youremail.co</a></p>
                               </address>
 
-                              <div class="footer_menu">
+                              
+                         </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-12">
+                         <div class="footer-info footer_menu">
                                    <h2>Quick Links</h2>
                                    <ul>
                                         <li><a href="#">Career</a></li>
@@ -652,24 +660,6 @@ Last updated - 2020/10/24
                                         <li><a href="#">Refund Policy</a></li>
                                    </ul>
                               </div>
-                         </div>
-                    </div>
-
-                    <div class="col-md-4 col-sm-12">
-                         <div class="footer-info newsletter-form">
-                              <div class="section-title">
-                                   <h2>Request for Information</h2>
-                              </div>
-                              <div>
-                                   <div class="form-group">
-                                        <form action="#" method="get">
-                                             <input type="email" class="form-control" placeholder="Enter your email" name="email" id="email" required>
-                                             <input type="submit" class="form-control" name="submit" id="form-submit" value="Send me">
-                                        </form>
-                                        <span><sup>*</sup> Please note - we do not spam your email.</span>
-                                   </div>
-                              </div>
-                         </div>
                     </div>
                     
                </div>

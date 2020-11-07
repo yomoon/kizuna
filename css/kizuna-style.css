@@ -121,7 +121,7 @@ https://templatemo.com/tm-516-known
     background: #3F51B5;
     border-radius: 100%;
     text-align: center;
-    padding: 6em;
+    padding: 4em;
     width: 500px;
     height: 500px;
   }
@@ -162,13 +162,15 @@ https://templatemo.com/tm-516-known
     padding: 100px 0;
   }
 
-  #value,
-  #testimonial {
+  #value {
     background: #f9f9f9;
+  }
+  #team {
+    background: #f3f3f3;
   }
 
   #value, 
-  #testimonial {
+  #team {
     text-align: center;
   }
   
@@ -402,7 +404,8 @@ https://templatemo.com/tm-516-known
 
   .feature-thumb {
     border: 1px solid #f0f0f0;
-    padding: 5em 3em;
+    padding: 3em 3em;
+	margin-bottom:1em;
   }
 
   .feature-thumb span {
@@ -422,6 +425,8 @@ https://templatemo.com/tm-516-known
   .feature-thumb h3 {
     margin: 10px 0;
   }
+  
+  
 
 
 
@@ -438,9 +443,15 @@ https://templatemo.com/tm-516-known
   #about figure span {
     float: left;
     margin-left: -15px;
-    padding: 5px 20px 50px 20px;
+    padding: 5px 20px 70px 20px;
     position: relative;
     top: 20px;
+  }
+  
+  @media only screen and (max-width: 480px) {
+	   #about figure span {
+    padding: 5px 20px 100px 20px;
+  }
   }
 
   #about figure span i {
@@ -623,10 +634,10 @@ https://templatemo.com/tm-516-known
 
 
   /*---------------------------------------
-      TESTIMONIAL             
+      TEAM             
   -----------------------------------------*/
 
-  #testimonial .item {
+  #team .item {
     background: #ffffff;
     margin: 20px 0;
     padding: 4em 3em;
@@ -634,12 +645,12 @@ https://templatemo.com/tm-516-known
   }
 
   #instance .col-md-4,
-  #testimonial .col-md-4 {
+  #team .col-md-4 {
     display: block;
     width: 100%;
   }
 
-  #testimonial .item > p {
+  #team .item > p {
     font-size: 16px;
     line-height: 26px;
   }
@@ -778,7 +789,7 @@ https://templatemo.com/tm-516-known
   }
 
   .footer_menu h2 {
-    margin-top: 2em;
+    margin-top: 0;
   }
 
   .footer_menu ul {
@@ -888,7 +899,7 @@ https://templatemo.com/tm-516-known
     .about-info,
     .team-thumb,
     .footer-info {
-      margin-bottom: 50px;
+     /* margin-bottom: 50px;*/
     }
 
     .contact-image {
@@ -966,7 +977,7 @@ https://templatemo.com/tm-516-known
       font-size: 1.8em;
     }
 
-    #testimonial .item {
+    #team .item {
       padding: 2em;
     }
 
