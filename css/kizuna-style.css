@@ -167,6 +167,7 @@ https://templatemo.com/tm-516-known
   }
   #team {
     background: #f3f3f3;
+	/*background: #f9f9f9;*/
   }
 
   #value, 
@@ -631,6 +632,18 @@ https://templatemo.com/tm-516-known
     font-weight: bold;
   }
 
+
+
+
+
+.logoplace {
+	background:#fff;
+	padding:3em 0;
+}
+
+.logoplace .col-sm-6 {
+	margin:30px 0;
+}
 
 
   /*---------------------------------------
